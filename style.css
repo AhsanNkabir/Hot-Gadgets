@@ -73,5 +73,43 @@
     color: orange;
     font-weight: 600;
 }
+.categories h3{
+    text-align: center;
+}
+.cat-underline{
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: orange;
+    margin: 0 auto;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px lightgrey;
+    height:200px;
+    width:200px;
+    
+}
+.cat1, .cat2{
+    margin-top: 100px;
+}
+.cat3{
+    margin-top: 20px;
+}
+.cat1{
+    padding-right: 0;
+}
+.categories h4{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+.pale-order-img{
+    padding-top: 30px;
+}
+footer{
+    text-align: center;
+}
 
 
