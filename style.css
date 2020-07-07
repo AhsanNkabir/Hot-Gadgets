@@ -1,0 +1,77 @@
+.ml-auto{
+    margin-left: auto;
+}
+.container{
+    margin-bottom: 100px;
+}
+.carousal-bg{
+    background-image: url("images/banner-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    padding-top: 40px;
+    
+}
+.carousel-indicators li{
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+}
+.carousel-indicators .active{
+    width: 48px;
+    height: 10px;
+    margin: 10px;
+    background-image: linear-gradient(to right, orange 20%, yellow 200%);
+}
+.buy-now-button{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.card-body{
+    text-align: center;
+}
+.card-title{
+    font-weight: 700px;   
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+    text-align: center;
+}
+.bd-highlight p{
+    color: orange;
+    font-weight: 600;
+}
+
+
